@@ -7,31 +7,89 @@
 
    .container {
        
-      background-image: url("https://images.pexels.com/photos/371589/pexels-photo-371589.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500");
+      background-image: url("https://24wallpapers.com/app-gateway/wallpaper-uploads/wallpapers/legacyUploads/wi50821d62765-4859-49d5-8957-ec179966ab1348437724.jpg");
       background-repeat: no-repeat;
       background-size: cover;
-      display: flex;
       width: 100%;
       height: 100%;   
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      
+    
    }
 
   
    .header{
 
    color:white;
-   flex-direction: column;
+   display: flex;
+   flex-direction: row;
   align-items: center;
+  text-align: center;
   justify-content: space-between;
 
 }
 
-.title{
+.section{
    color: white;
-   
+   display: flex;
+   flex-direction: column;
+  align-items: center;
+  text-align: center;
+  justify-content: space-around;
+ 
+
 }
 
 .footer{
    color: white;
-   align-items: flex-end;
+   display:flex;
+   flex-direction: row;
+   flex-wrap: nowrap;
+   text-align:center;
+   align-items:flex-end;
    justify-content: space-between;
+
+}
+
+.button-prepend{
+   background-color: blue; 
+   color: white;
+   border-radius: 5px;
+  padding: 10px 15px;
+}
+
+.button-append{
+  background-color:aqua;
+  border-style: hidden;
+  border-radius: 5px;
+  padding: 10px 15px;
+}
+
+
+.button-b{
+   background-color: rgb(255, 100, 90);
+   color: white;
+   border-radius: 20px;
+   padding: 12px 22px;
+}
+
+.Journey{
+font-style:italic;
+font-family:serif;
+font-weight:bolder;
+font-size: 70px;
+line-height: 50px;
+}
+
+.section{
+
+line-height: 30px;
+}
+
+.slides{
+
+   font-weight: bold;
+   font-size: 20px;
 }
